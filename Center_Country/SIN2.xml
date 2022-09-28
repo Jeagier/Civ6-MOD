@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData2 -->
+<!-- Author: 1 -->
+<!-- DateCreated: 3/19/2020 12:52:17 AM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DAQINJIAQIANG_NAME" Language="zh_Hans_CN">
+			<Text>中央之国</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DAQINJIAQIANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有领土+1 [ICON_Food] 食物 [ICON_Science] 科研 [ICON_Culture] 文化 和 [ICON_Production] 产能。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

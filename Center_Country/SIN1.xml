@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SIN1 -->
+<!-- Author: 1 -->
+<!-- DateCreated: 3/19/2020 12:51:41 AM -->
+<GameData>
+	<Types>
+	    <Row Type="TRAIT_CIVILIZATION_DAQINJIAQIANG" Kind="KIND_CIVILIZATION"/>
+	</Types>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_CHINA" TraitType="TRAIT_CIVILIZATION_DAQINJIAQIANG"/>
+	</CivilizationTraits>
+	<Traits>
+		<Update>
+			<Where TraitType="TRAIT_CIVILIZATION_DAQINJIAQIANG"/>
+			<Set Description="LOC_TRAIT_CIVILIZATION_WENMING_GUGUO_DESCRIPTION"/>
+		</Update>
+	    <Row TraitType="TRAIT_CIVILIZATION_DAQINJIAQIANG" 
+			 Name="LOC_TRAIT_CIVILIZATION_DAQINJIAQIANG_NAME" 
+			 Description="LOC_TRAIT_CIVILIZATION_DAQINJIAQIANG_DESCRIPTION"/>
+
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_DAQINJIAQIANG" ModifierId="DAQINJIAQIANG_PLOT_ADDFAITH_FOOD"/>
+		<!--Row TraitType="TRAIT_CIVILIZATION_DAQINJIAQIANG" ModifierId="DAQINJIAQIANG_PLOT_ADDFAITH_GOLD"/-->
+		<Row TraitType="TRAIT_CIVILIZATION_DAQINJIAQIANG" ModifierId="DAQINJIAQIANG_PLOT_ADDFAITH_PRODUCTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DAQINJIAQIANG" ModifierId="DAQINJIAQIANG_PLOT_ADDFAITH_CULTURE"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DAQINJIAQIANG" ModifierId="DAQINJIAQIANG_PLOT_ADDFAITH_SCIENCE"/>
+	</TraitModifiers>
+	<Modifiers>
+		<!--领土BUFF-->
+		<Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+		</Row>
+		<!--Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+		</Row-->
+		<Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--领土BUFF-->
+		<Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row-->
+		<!--Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row-->
+		<Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>DAQINJIAQIANG_PLOT_ADDFAITH_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>
